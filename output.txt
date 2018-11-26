@@ -1,0 +1,108 @@
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51433:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/macuser/IdeaProjects/Assignment 09 Escape'd/out/production/Assignment 09 Escape'd" Main
+
+Uh oh! It looks like you have fallen as the next victim in Ryan's House of Horror! 
+ However, I am feeling nice today, it is after all the holiday season, which is all about giving. 
+ So I am going to give you a chance to escape.
+Here is your gift: You have 30 opportunities. 
+ 30 opportunities before you earn your spot on our Thanksgiving table, and you would not be there as a guest...
+Now, here is how you play our little game to determine your fate, MUAHAHAHA 
+ To catch my attention, command help, but be wise as I can get cranky. But by doing this I will guide you in the right direction. Remember, because of my illiteracy I only understand two word expressions (verb then noun). I only understand the verbs: open, read, look, close, write, get, light, and play.  
+ I did study nouns more in primary school, so you can command me these nouns: door, candle, book, trumpet, room, note, pen, piano, bench, matches, scroll, drum, chest, shelves, music, and lock.
+Lastly, you need to know where you are going. You have four options for this step: north, south, east, and west. 
+ Cherish your last hours in this world!
+
+Where am I? Why is it so dark here? As I continue to look around I see that I am in some sorts of a fancy house. I look up to see a door with a gold handle. To the right there is a treasure chest, one that is black, and just sitting on the floor. As I walk around I trip over an unlit candle, that was smack-dab in the middle of the room. To my left is a bench, one that appears to be red, and is pinned on the wall. What is going on?
+ You have 30 turns to escape.
+>>look candle
+
+It's dark man, obviously it isn't lit.
+ You have 29 turns to escape.
+>>look bench
+
+Aha! Locate the note that is on the bench.
+ You have 28 turns to escape.
+>>read note
+
+May my light show you the way
+ You have 27 turns to escape.
+>>look chest
+
+That is peculiar, the chest seems to be closed
+ You have 26 turns to escape.
+>>open chest
+
+Narts! You found my matches!
+ You have 25 turns to escape.
+>>get matches
+
+Keep going, what are you going to do with these?
+ You have 24 turns to escape.
+>>light candle
+
+After lighting, you are immediately struck with a loud noise above you.
+ You have 23 turns to escape.
+>>look door
+
+This entrance has not yet been unlocked for you
+ You have 22 turns to escape.
+>>open door
+
+Welcome, go ahead now, the door has been opened.
+ You have 21 turns to escape.
+>>north
+
+Now you come across a new room, with no possible way of turning back. You can see that there is a books and a  desk. Also, you can find a blue door above you. What could these mean? Continue to find out.
+You have 20 turns left.
+>>look shelves
+
+One book is poking out. It is titled: The Autobiography of... with the rest of the title missing.
+You have 19 turns left.
+>>get pen
+
+The pen is now in your hands.
+You have 18 turns left.
+>>read scroll
+
+It asks for you name. The catch is, you must write it. *Am I writing the story of my own life?*
+You have 17 turns left.
+>>write book
+
+Immediately after completing this step, you hear a noise above you.
+You have 16 turns left.
+>>look door
+
+You can't do anything right! The door remains closed.
+You have 15 turns left.
+>>open door
+
+Door opens, keep going to reveal your future.
+You have 14 turns left.
+>>north
+
+As you leave this library, you are now stuck in a new room, lined only with a shiny trumpet, a drum, and a grand piano. Also in this new room is a piece of sheet music on a stand in the middle of the room.
+ You have 13 turns left.
+>>look music 
+
+Wrong, but don't give up yet. This last door is the key to getting out. On second thought, please give up, I am hungry.
+ You have 12 turns left.
+>>read music
+
+Timbre, Tone, and Time. But I know you are dumb and do not understand this so here is your hint: trumpet, piano, and drum.
+ You have 11 turns left.
+>>play trumpet
+
+Those fifth grade music classes pays off, you can know play the trumpet.
+ You have 10 turns left.
+>>play piana
+
+Wrong, but don't give up yet. This last door is the key to getting out. On second thought, please give up, I am hungry.
+ You have 9 turns left.
+>>play piano
+
+Look at you, a musical prodigy playing the piano
+ You have 8 turns left.
+>>play drum
+
+Ugh, it looks like you have defeated the game. Congratulations! For now...
+
+Process finished with exit code 0
