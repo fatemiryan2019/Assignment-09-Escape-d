@@ -3,22 +3,18 @@ import java.util.Scanner;
 public class Main {
 
     public static Scanner scan;
-    public static String output = "Where am I? Why is it so dark here? As I continue to look around I see that I am in some sorts of a fancy house. I look up to see a door with a gold handle. To the right there is a treasure chest, one that is black, and just sitting on the floor. As I walk around I trip over an unlit candle, that was smack-dab in the middle of the room. To my left is a bench, one that appears to be red, and is pinned on the wall. What is going on?\n";
+    public static String output = "Our journey with each other continues...";
     public static int turnsToEscape = 30;
-
     public static boolean Trumpet = false;
     public static boolean Piano = false;
     public static boolean Drum = false;
-
     public static boolean Foyer = true;
     public static boolean Library = false;
     public static boolean Conservatory = false;
-
     public static boolean Pen = false;
     public static boolean Book = true;
     public static boolean DoorLocked = true;
     public static boolean DoorOpen = false ;
-
     public static boolean chest = false;
     public static boolean Matches = false;
     public static boolean candle = false;
@@ -28,7 +24,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-
+        System.out.printf("\nWhere am I? Why is it so dark here? As I continue to look around I see that I am in some sorts of a fancy house. I look up to see a door with a gold handle. To the right there is a treasure chest, one that is black, and just sitting on the floor. As I walk around I trip over an unlit candle, that was smack-dab in the middle of the room. To my left is a bench, one that appears to be red, and is pinned on the wall. What is going on?\n");
         System.out.printf("\nUh oh! It looks like you have fallen as the next victim in Ryan's House of Horror! \n However, I am feeling nice today, it is after all the holiday season, which is all about giving. \n So I am going to give you a chance to escape.\n");
         System.out.printf("Here is your gift: You have 30 opportunities. \n 30 opportunities before you earn your spot on our Thanksgiving table, and you would not be there as a guest...\n");
         System.out.printf("Now, here is how you play our little game to determine your fate, MUAHAHAHA \n To catch my attention, command help, but be wise as I can get cranky. But by doing this I will guide you in the right direction. Remember, because of my illiteracy I only understand two word expressions (verb then noun). I only understand the verbs: open, read, look, close, write, get, light, and play.  \n I did study nouns more in primary school, so you can command me these nouns: door, candle, book, trumpet, room, note, pen, piano, bench, matches, scroll, drum, chest, shelves, music, and lock.\n");
@@ -110,6 +106,13 @@ public class Main {
                 }
                 break;
 
+            case "open door":
+                if (!redDoorLocked) {
+                    redDoorOpen = true;
+                    output = "Welcome, go ahead now, the door has been opened.\n";
+                }
+                break;
+
             case "look door":
                 if (!redDoorLocked) {
                     if (redDoorOpen) {
@@ -124,14 +127,7 @@ public class Main {
                 }
                 break;
 
-            case "open door":
-                if (!redDoorLocked) {
-                    redDoorOpen = true;
-                    output = "Welcome, go ahead now, the door has been opened.\n";
-                }
-                break;
-
-            case "north":
+            case "go north":
                 if (redDoorOpen) {
                     Foyer = false;
                     Library = true;
@@ -174,6 +170,13 @@ public class Main {
                 output = "Immediately after completing this step, you hear a noise above you.\n";
                 break;
 
+            case "open door":
+                if (!DoorLocked) {
+                    DoorOpen = true;
+                    output = "Door opens, keep going to reveal your future.\n";
+                }
+                break;
+
             case "look door":
                 if (!DoorLocked) {
                     if (DoorOpen) {
@@ -188,14 +191,7 @@ public class Main {
                 }
                 break;
 
-            case "open door":
-                if (!DoorLocked) {
-                    DoorOpen = true;
-                    output = "Door opens, keep going to reveal your future.\n";
-                }
-                break;
-
-            case "north":
+            case "go north":
                 if (DoorOpen) {
                     Library = false;
                     Conservatory = true;
